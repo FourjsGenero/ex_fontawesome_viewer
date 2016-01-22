@@ -1,0 +1,4 @@
+circle-red=FontAwesome.ttf:f111:red
+circle-orange=FontAwesome.ttf:f111:orange
+circle-green=FontAwesome.ttf:f111:#00FF00
+fa-shopping-cart-grey=FontAwesome.ttf:f07a:grayText

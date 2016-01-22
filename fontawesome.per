@@ -1,0 +1,28 @@
+LAYOUT (TEXT="FontAwesome Image Viewer", MINWIDTH=80, MINHEIGHT=25)
+HBOX
+TABLE
+{
+[f01                  |f02        |f03       ]
+}
+END
+GRID
+{
+[i01                   ]
+[                      ]
+[                      ]
+[                      ]
+[                      ]
+
+}
+END
+END
+END
+
+ATTRIBUTES
+EDIT f01 = formonly.imagename, TITLE="Image Name";
+EDIT f02 = formonly.code, TITLE="Code";
+IMAGE f03 = formonly.img, TITLE="Image", AUTOSCALE;
+
+IMAGE i01 = formonly.img2, STRETCH=BOTH, AUTOSCALE, HEIGHT=150 PIXELS, WIDTH=150 PIXELS;
+INSTRUCTIONS
+SCREEN RECORD scr(imagename, code, img);
