@@ -7,6 +7,8 @@ DEFINE arr DYNAMIC ARRAY OF RECORD
 END RECORD
 MAIN
 
+    -- Best viewed with GBC or Universal Rendering
+    CALL ui.Interface.loadStyles("fontawesome.4st")
     DISPLAY FGL_GETENV("FGLIMAGEPATH")
     CALL add_images_to_array(SFMT("%1%2lib%2image2font.txt",FGL_GETENV("FGLDIR"), os.Path.separator()))
     CALL add_images_to_array("my_image2font.txt")
@@ -16,8 +18,8 @@ MAIN
     DISPLAY ARRAY arr TO scr.*
         BEFORE DISPLAY
             MESSAGE "Custom Images from my_image2font.txt are at end of list"
-        BEFORE ROW
-            DISPLAY arr[arr_curr()].img TO img2
+        --BEFORE ROW
+        --    DISPLAY arr[arr_curr()].img TO img2
     END DISPLAY
 END MAIN
 
