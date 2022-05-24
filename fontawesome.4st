@@ -5,5 +5,6 @@
   </Style>
   <Style name="ScrollGrid">
      <StyleAttribute name="customWidget" value="pagedScrollGrid" />
+     <StyleAttribute name="itemsAlignment" value="center" />
   </Style>
 </StyleList>

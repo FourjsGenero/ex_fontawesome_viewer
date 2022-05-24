@@ -2,3 +2,7 @@ circle-red=FontAwesome.ttf:f111:red
 circle-orange=FontAwesome.ttf:f111:orange
 circle-green=FontAwesome.ttf:f111:#00FF00
 fa-shopping-cart-grey=FontAwesome.ttf:f07a:grayText
+fa-toggle-off-orange=FontAwesome.ttf:f204:orange
+fa-toggle-on-green=FontAwesome.ttf:f205:green
+fa-exclamation-triangle-oragne=FontAwesome.ttf:f071:orange
+fa-times-circle-red=FontAwesome.ttf:f057:red
