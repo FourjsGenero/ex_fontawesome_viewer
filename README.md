@@ -1,7 +1,7 @@
 # ex_fontawesome_viewer
 Example program showing images shipped in FontAwesome and customised versions of them
 
-![Font Awesome Viewer](https://user-images.githubusercontent.com/13615993/32206426-d6da4760-be59-11e7-8342-5175a6ad8a17.png)
+![Font Awseome Viewer](https://github.com/FourjsGenero/ex_fontawesome_viewer/assets/13615993/373c9788-f784-44ec-a0f6-6b7d3e4950c9)
 
 This example shows all the fontawesome files in the current fontfile plus how
 to create some coloured images
